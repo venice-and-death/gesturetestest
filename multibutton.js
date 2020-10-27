@@ -1,3 +1,5 @@
+document.querySelector("button").addEventListener("click", (e)=> {
+
 function myFunction1 (num) {
     alert("You called 'myFunction1()', with the argument: " + num);
 }
@@ -40,4 +42,5 @@ for (var i = 0, len = buttons.length; i < len; i++) {
     buttons[i].onclick = function (){
         myFunction (this);
     }
+}
 }
