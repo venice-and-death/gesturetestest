@@ -1,4 +1,3 @@
-document.querySelector("button").addEventListener("click", (e)=> {
 
 function myFunction1 (num) {
     alert("You called 'myFunction1()', with the argument: " + num);
